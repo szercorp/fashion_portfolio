@@ -1,7 +1,21 @@
+.projectsMain-hero {
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: .035fr 1fr .035fr;
+}
+
 .projects-hero {
-    min-height: 150px;
+    min-height: 100px;
     display: grid;
     grid-template-columns: .6fr 1fr .6fr;
+}
+
+.projectsMainHero-col2 {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .projectsHero-col2 {
@@ -97,6 +111,10 @@
 @media all and (max-width: 480px) {
     .projects {
         margin: 0 4% 4%;
+    }
+
+    .projectsMainHero-col2 {
+        align-items: center;
     }
 
     .hoverable-heading {

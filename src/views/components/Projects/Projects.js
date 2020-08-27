@@ -4,8 +4,8 @@ import './Projects.css';
 
 const Projects = () => (
     <div className="projects-wrapper">
-        <div className="projects-hero">
-            <div className="projectsHero-col2">
+        <div className="projectsMain-hero">
+            <div className="projectsMainHero-col2">
                 <h1 className="projectsHero-heading">Projects</h1>
             </div>
         </div>

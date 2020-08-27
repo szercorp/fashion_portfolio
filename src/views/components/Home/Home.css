@@ -18,6 +18,8 @@
     box-shadow: 0px 0px 10px #777;
 }
 
+/* Media Queries */
+/* Mobile */
 @media all and (max-width: 480px) {
     .home-body {
         display: grid;
