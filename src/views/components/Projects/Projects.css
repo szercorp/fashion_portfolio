@@ -96,7 +96,7 @@
 /* Mobile */
 @media all and (max-width: 480px) {
     .projects {
-        margin: 0 5% 5%;
+        margin: 0 4% 4%;
     }
 
     .hoverable-heading {
