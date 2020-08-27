@@ -1,0 +1,139 @@
+.projects-hero {
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: .6fr 1fr .6fr;
+}
+
+.projectsHero-col2 {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectsHero-heading {
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.projects-body {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    height: 500px;
+    width: 700px;
+    border: 15px solid #FFFFFF;
+    border-bottom: 50px solid #fff; 
+    margin: 1%;
+    -webkit-box-shadow: 0px 0px 10px #777; 
+    -moz-box-shadow: 0px 0px 10px #777;
+    box-shadow: 0px 0px 10px #777;
+}
+
+.link-items {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.projects-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.hoverable-heading {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    width: 330px;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-inner:hover .hoverable-heading {
+    opacity: 1;
+}
+
+.projects-number {
+    color: #000000;
+    margin-left: 630px;
+    font-weight: normal;
+    font-family: ShadowsIntoLight-Regular;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#womanUp {
+    background: url('../../../images/projects-backgrounds/AFRICAN_WANDERERS.jpeg');
+    background-size: cover;
+}
+
+#tradernity {
+    background: url('../../../images/projects-backgrounds/TRADERNITY.jpeg');
+    background-size: cover;
+}
+
+#panther {
+    background: url('../../../images/projects-backgrounds/BLACK_PANTHER.jpeg');
+    background-size: cover;
+}
+
+#chaos {
+    background: url('../../../images/projects-backgrounds/CHAOS.jpeg');
+    background-size: cover;
+}
+
+/* Media Queries */
+/* Mobile */
+@media all and (max-width: 480px) {
+    .projects {
+        margin: 0 5% 5%;
+    }
+
+    .hoverable-heading {
+        opacity: 1;
+        width: 100%;
+        font-size: .7rem;
+    }
+
+    .projects-number {
+        margin-left: 85%;
+    }
+}
+
+/* Tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1366px) {
+    .projects {
+        width: 100%;
+        margin: 0 2% 3%;
+    }
+
+    .hoverable-heading {
+        opacity: 1;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .projects-number {
+        margin-left: 94%;
+    }
+}
+
+@media (hover:none), 
+(hover:on-demand) {
+    .projects-inner:hover { 
+    /* suppress hover effect on devices that don't support hover fully */
+    background: none;
+  }
+}

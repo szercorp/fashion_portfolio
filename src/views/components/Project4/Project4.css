@@ -1,0 +1,51 @@
+.project4-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project4-images {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#project4Image10 {
+    width: 45%;
+}
+
+#project4Image12 {
+    width: 45%;
+}
+
+/* Media Queries */
+/* Mobile */
+@media all and (max-width: 480px) {
+    .project4-images {
+        width: 91%;
+    }
+
+    #project4Image10 {
+        width: 96%;
+    }
+    
+    #project4Image12 {
+        width: 96%;
+    }
+}
+
+/* Tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1366px) {
+    .project4-images {
+        width: 80%;
+    }
+
+    #project4Image10 {
+        width: 65%;
+    }
+    
+    #project4Image12 {
+        width: 65%;
+    }
+}

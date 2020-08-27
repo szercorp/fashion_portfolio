@@ -1,0 +1,30 @@
+.app-wrapper {
+  height: 100%;
+}
+
+/* The emerging W3C standard
+   that is currently Firefox-only */
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: #FFFFFF #d3d3d3;
+  }
+  
+  /* Works on Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #FFFFFF;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+  }
+
+/* Media Queries */
+/* Mobile */
+@media all and (max-width: 480px) {
+  ::-webkit-scrollbar { 
+    display: none; 
+    }
+}

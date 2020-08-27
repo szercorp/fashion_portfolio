@@ -1,0 +1,27 @@
+.about-wrapper {
+    height: 100%;
+}
+
+.about-hero {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutHero-heading {
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-text {
+    width: 50%;
+    text-align: justify;
+}
