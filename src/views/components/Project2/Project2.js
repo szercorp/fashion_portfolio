@@ -21,7 +21,6 @@ const Project2 = () => (
             <img className="project2-images" src={require('../../../images/tradernity/tradernity (10).jpg')} alt="project2-image10" />
             <img className="project2-images" src={require('../../../images/tradernity/tradernity (11).jpg')} alt="project2-image13" />
             <img className="project2-images" src={require('../../../images/tradernity/tradernity (12).jpg')} alt="project2-image14" />
-            <img className="project2-images" src={require('../../../images/tradernity/tradernity (12).jpg')} alt="project2-image25" />
             <img className="project2-images" src={require('../../../images/tradernity/tradernity (13).jpg')} alt="project2-image26" />
         </div>
     </div>

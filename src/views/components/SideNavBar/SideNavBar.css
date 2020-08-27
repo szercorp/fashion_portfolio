@@ -4,8 +4,8 @@
     position: fixed;
     width: 26px;
     height: 20px;
-    left: 15px;
-    top: 15px;
+    left: 4%;
+    top: 2.4%;
     animation-name: learn;
     animation-duration: 6s;
 }
