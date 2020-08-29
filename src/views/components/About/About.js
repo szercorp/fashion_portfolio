@@ -4,7 +4,7 @@ import './About.css';
 const About = () => (
     <div className="about-wrapper">
         <div className="about-hero">
-            <h1 className="aboutHero-heading">About me</h1>
+            <h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="aboutHero-heading">About me</h1>
         </div>
         <div className="about-body">
             <p className="about-text">

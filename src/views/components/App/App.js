@@ -12,9 +12,12 @@ import Project2 from '../Project2/Project2';
 import Project3 from '../Project3/Project3';
 import Project4 from '../Project4/Project4';
 import Footer from '../Footer/Footer';
-import '../../../libs/ScrollToTop';
-import './App.css';
 import ScrollToTop from '../../../libs/ScrollToTop';
+import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 const App = () => {
   // Function to go to top of the page when refreshing

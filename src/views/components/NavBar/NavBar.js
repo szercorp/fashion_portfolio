@@ -17,7 +17,7 @@ const NavBar = () => {
 
     return (
         <nav className={isScrolled ? "navBar-wrapper scrolled" : "navBar-wrapper"}>
-            <ul className="navBar-items">
+            <ul data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="navBar-items">
                 <NavLink className="nav-link" to='/' activeClassName="active" exact={true}>
                     <li className="nav-item">Home</li>
                 </NavLink>
