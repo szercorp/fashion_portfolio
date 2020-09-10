@@ -1,8 +1,10 @@
 import React from 'react';
+import ScrollToTop from "react-scroll-to-top";
 import './Development.css';
 
 const Development = () => (
     <div className="development-wrapper">
+        <ScrollToTop smooth color="#FFFFFF" />
         <div className="projects-hero">
             <div className="projectsHero-col2">
                 <h1 className="projectsHero-heading">African Wanderers</h1>

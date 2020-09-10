@@ -1,17 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ScrollToTop from "react-scroll-to-top";
 import './Project1.css';
 
 const Project1 = () => (
-    <div className="project1-wraper">
+    <div className="project1-wrapper">
+        <ScrollToTop smooth color="#FFFFFF" />
         <div className="projects-hero">
             <div className="projectsHero-col2">
-                <h1 className="projectsHero-heading" style={{ marginBottom: '10px'}}>WOMAN UP</h1>
-                <h1 className="projectsHero-heading" style={{ marginBottom: '20px'}}>FASHION EDITORIAL</h1>
+                <h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="projectsHero-heading" style={{ marginBottom: '10px'}}>WOMAN UP</h1>
+                <h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="projectsHero-heading" style={{ marginBottom: '20px'}}>FASHION EDITORIAL</h1>
             </div>
             <div className="projectsHero-col3">
                 <Link className="link-items" to={'/projects/woman_up/development'}>
-                    <h1 className="development-heading">Graduation Collection - Development</h1>
+                    <h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="development-heading">Graduation Collection - Development</h1>
                 </Link>
             </div>
         </div>

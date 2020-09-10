@@ -3,28 +3,51 @@
 }
 
 /* The emerging W3C standard
-   that is currently Firefox-only */
-   * {
-    scrollbar-width: thin;
-    scrollbar-color: #FFFFFF #d3d3d3;
-  }
-  
-  /* Works on Chrome/Edge/Safari */
-  *::-webkit-scrollbar {
-    width: 4px;
-  }
-  *::-webkit-scrollbar-track {
-    background: #FFFFFF;
-  }
-  *::-webkit-scrollbar-thumb {
-    background-color: #d3d3d3;
-    border-radius: 20px;
-  }
+  that is currently Firefox-only */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FFFFFF #d3d3d3;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+}
+
+.styles_scroll-to-top__2A70v {
+  background: #000000;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #777777;
+}
+
+svg {
+    height: 20px;
+}
 
 /* Media Queries */
 /* Mobile */
 @media all and (max-width: 480px) {
   ::-webkit-scrollbar { 
     display: none; 
-    }
+  }
+
+  .styles_scroll-to-top__2A70v {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1366px) {
+  .styles_scroll-to-top__2A70v {
+    display: none;
+  }
 }
