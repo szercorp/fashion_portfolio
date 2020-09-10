@@ -1,10 +1,8 @@
 import React from 'react';
-import ScrollToTop from "react-scroll-to-top";
 import './Project3.css';
 
 const Project3 = () => (
     <div className="project3-wrapper">
-        {/* <ScrollToTop smooth color="#FFFFFF" /> */}
         <div className="projects-hero">
         <div className="projectsHero-col2">
             <h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000" className="projectsHero-heading" style={{ marginBottom: '10px'}}>BLACK PANTHER</h1>

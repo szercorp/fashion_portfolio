@@ -37,17 +37,4 @@ svg {
   ::-webkit-scrollbar { 
     display: none; 
   }
-
-  .styles_scroll-to-top__2A70v {
-    display: none;
-  }
-}
-
-/* Tablet */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1366px) {
-  .styles_scroll-to-top__2A70v {
-    display: none;
-  }
 }
