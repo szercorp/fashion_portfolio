@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbe7280f.chunk.css",
+    "main.css": "/static/css/main.8a4e81e9.chunk.css",
     "main.js": "/static/js/main.36fe186a.chunk.js",
     "main.js.map": "/static/js/main.36fe186a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.429b3b76.js",
@@ -9,10 +9,10 @@
     "static/js/2.74dc0acb.chunk.js": "/static/js/2.74dc0acb.chunk.js",
     "static/js/2.74dc0acb.chunk.js.map": "/static/js/2.74dc0acb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ceacbe3b203895ea47214f52859c3088.js": "/precache-manifest.ceacbe3b203895ea47214f52859c3088.js",
+    "precache-manifest.de87d647ee75cd62b26bda6a79b627f0.js": "/precache-manifest.de87d647ee75cd62b26bda6a79b627f0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.cbe7280f.chunk.css.map": "/static/css/main.cbe7280f.chunk.css.map",
+    "static/css/main.8a4e81e9.chunk.css.map": "/static/css/main.8a4e81e9.chunk.css.map",
     "static/js/2.74dc0acb.chunk.js.LICENSE.txt": "/static/js/2.74dc0acb.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/static/media/TRADERNITY.b014d8e3.jpeg",
     "static/media/index.css": "/static/media/The_Brooklyn_Smooth.90f6e267.otf",
@@ -82,7 +82,7 @@
     "static/js/runtime-main.429b3b76.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.74dc0acb.chunk.js",
-    "static/css/main.cbe7280f.chunk.css",
+    "static/css/main.8a4e81e9.chunk.css",
     "static/js/main.36fe186a.chunk.js"
   ]
 }
