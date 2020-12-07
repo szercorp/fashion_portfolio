@@ -1,19 +1,25 @@
 .hero-wrapper {
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#f6f6f6;
 }
 
 .hero-heading {
-    font-size: 3rem;
-    font-weight: normal;
+  font-size: 3.25rem;
+  font-weight: bold;
 }
 
 /* Media Queries */
 /* Mobile */
 @media all and (max-width: 480px) {
-    .hero-heading {
-        font-size: 2.5rem;
-    }
+  .hero-wrapper {
+    min-height: 180px;
+  }
+
+  .hero-heading {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
 }
