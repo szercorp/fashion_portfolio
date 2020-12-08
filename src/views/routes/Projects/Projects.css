@@ -100,7 +100,8 @@
   }
 
   .projects {
-    
+    height: 500px;
+    width: 385px;
   }
 
   .hoverable-heading {
@@ -138,3 +139,9 @@
     background: none;
   }
 }
+
+/* @media only screen and (max-width: 1480px) {
+  .projects-body {
+    grid-template-columns: 1fr;
+  }
+} */

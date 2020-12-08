@@ -1,87 +1,94 @@
-/* .project1-wrapper {
-    height: 100%;
-} */
+.project1-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projectsHero-col2 {
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .projectsHero-col3 {
-    grid-column-start: 3;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  grid-column-start: 3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .development-heading {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
 }
 
 .project1-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project1-images {
-    width: 60%;
-    margin-bottom: 50px;
+  width: 60%;
+  margin-bottom: 40px;
 }
 
 #project1Image1 {
-    width: 45%;
+  width: 45%;
 }
 
 #project1Image17 {
-    width: 45%;
+  width: 45%;
 }
 
 /* Media Queries */
 /* Mobile */
 @media all and (max-width: 480px) {
-    .projects-hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
+  .project1-hero  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-    .development-heading  {
-        margin: 0;
-    }
-    
-    .project1-images {
-        width: 92%;
-    }
+  .development-heading {
+    margin: 0;
+  }
 
-    #project1Image1 {
-        width: 80%;
-    }
+  .project1-images {
+    width: 95%;
+  }
 
-    #project1Image17 {
-        width: 80%;
-    }
+  #project1Image1 {
+    width: 80%;
+  }
+
+  #project1Image17 {
+    width: 80%;
+  }
 }
 
 /* Tablet */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1366px) {
-    .projects-hero {
-        grid-template-columns: .9fr 1fr .9fr;
-    }
-    .development-heading {
-        font-size: .9rem;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+  .project1-hero  {
+    grid-template-columns: 0.9fr 1fr 0.9fr;
+  }
 
-    .project1-images {
-        width: 80%;
-    }
-    
-    #project1Image1 {
-        width: 65%;
-    }
+  .development-heading {
+    font-size: 0.9rem;
+  }
 
-    #project1Image17 {
-        width: 65%;
-    }
+  .project1-images {
+    width: 95%;
+  }
+
+  #project1Image1 {
+    width: 65%;
+  }
+
+  #project1Image17 {
+    width: 65%;
+  }
 }

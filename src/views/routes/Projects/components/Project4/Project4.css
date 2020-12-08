@@ -6,7 +6,7 @@
 
 .project4-images {
     width: 60%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #project4Image10 {
@@ -21,7 +21,7 @@
 /* Mobile */
 @media all and (max-width: 480px) {
     .project4-images {
-        width: 92%;
+        width: 95%;
     }
 
     #project4Image10 {
@@ -38,7 +38,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1366px) {
     .project4-images {
-        width: 80%;
+        width: 95%;
     }
 
     #project4Image10 {
