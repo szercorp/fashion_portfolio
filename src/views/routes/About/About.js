@@ -6,7 +6,7 @@ const About = () => (
     <div className="about-hero">
       <h1 className="about-heading">About me</h1>
     </div>
-    <p className="about-text">
+    {/* <p className="about-text">
       Fashion and art have always been two major pylons in my life that enabled
       me to express my views and beliefs through creativity channels.
       Constructions with innovative materials that distort the garment's
@@ -17,7 +17,7 @@ const About = () => (
       guide in terms of creation and inspiration was the charity trips. People
       coming from differently structured societies and cultures are a great form
       of inspiration that I seek to express through my designs.
-    </p>
+    </p> */}
   </div>
 );
 

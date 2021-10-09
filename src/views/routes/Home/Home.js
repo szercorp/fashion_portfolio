@@ -7,10 +7,10 @@ import './Home.css';
 
 const Home = () => (
   <div className="home-wrapper">
-    <img className="home-images" src={image1} alt="home-image1" />
+    {/* <img className="home-images" src={image1} alt="home-image1" />
     <img className="home-images" src={image2} alt="home-image2" />
     <img className="home-images" src={image3} alt="home-image3" />
-    <img className="home-images" src={image4} alt="home-image4" />
+    <img className="home-images" src={image4} alt="home-image4" /> */}
   </div>
 );
 

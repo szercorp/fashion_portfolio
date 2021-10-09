@@ -37,9 +37,9 @@ const App = () => {
         {/* <SideNavBar /> */}
         {/* <NavBar /> */}
         {/* <Hero /> */}
-        <Header />
+        {/* <Header /> */}
         <Switch>
-          {/* <Route path="/" exact component={Home} /> */}
+          <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/projects/woman_up" exact component={Project1} />
