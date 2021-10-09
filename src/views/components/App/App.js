@@ -17,6 +17,7 @@ import ScrollToTop from '../../../libs/ScrollToTop';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Header from '../Header/Header';
 
 AOS.init();
 
@@ -32,12 +33,13 @@ const App = () => {
     <Router basename="/">
       <ScrollToTop />
       <div className="app-wrapper">
-        <Menu />
-        <SideNavBar />
-        <NavBar />
-        <Hero />
+        {/* <Menu /> */}
+        {/* <SideNavBar /> */}
+        {/* <NavBar /> */}
+        {/* <Hero /> */}
+        <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+          {/* <Route path="/" exact component={Home} /> */}
           <Route path="/about" component={About} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/projects/woman_up" exact component={Project1} />
@@ -49,7 +51,7 @@ const App = () => {
           <Route path="/projects/black_panther" component={Project3} />
           <Route path="/projects/chaos" component={Project4} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
